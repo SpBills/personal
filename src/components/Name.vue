@@ -1,5 +1,5 @@
 <template>
-    <h1>{{ text }} <span class="blink">_</span></h1>
+    <h1 class="resize-header">{{ text }} <span class="blink">_</span></h1>
 </template>
 
 <script>
@@ -25,6 +25,10 @@ h1 {
     -ms-animation: 1.5s blink step-end infinite;
     -o-animation: 1.5s blink step-end infinite;
     animation: 1.5s blink step-end infinite;
+}
+
+.resize-header {
+  font-size: clamp(20px, 3vw, 30px);
 }
 
 @keyframes blink {

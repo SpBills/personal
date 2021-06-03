@@ -3,14 +3,16 @@
         <heading class="heading" />
         <h1 class="work-title">My work</h1>
         <projects class="projects" />
+        <footing />
     </main>
 </template>
 
 <script>
+import Footing from "../components/Footing.vue";
 import Heading from "../components/Heading.vue";
 import Projects from "../components/Projects.vue";
 export default {
-    components: { Heading, Projects },
+    components: { Heading, Projects, Footing },
 };
 </script>
 
@@ -41,13 +43,15 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Bebas Neue", cursive;
+    font-family: "Courier Prime", monospace;
     letter-spacing: 1.5px;
 }
 
 p,
 small,
-button {
+button,
+span,
+footer {
     font-family: "Open Sans", sans-serif;
 }
 

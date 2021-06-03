@@ -3,7 +3,7 @@
         <div class="backdrop-blur">
             <div class="project-content">
                 <div class="project-header">
-                    <img :src="icourl" width="25" height="25" />
+                    <img v-show="icourl" :src="icourl" width="25" height="25" />
                     <h2>{{ title }}</h2>
                 </div>
                 <p>{{ text }}</p>
@@ -37,11 +37,24 @@ export default {
         },
         customlink: {
             type: String
+        },
+        galleryimgs: {
+            type: Array
         }
     },
     methods: {
         redir() {
-            location.href = "https://" + this.customlink;
+            try {
+                let customUrl = new URL(this.customlink);
+                location.href = customUrl;
+            } catch (e) {
+                let customUrl = new URL("http://" + window.location.host + "/" + this.customlink);
+                customUrl.searchParams.append("title", this.title);
+                customUrl.searchParams.append("imageurl", this.icourl);
+                customUrl.searchParams.append("gallery", JSON.stringify(this.galleryimgs))
+                location.href = customUrl;
+            }
+            
         }
     }
 };

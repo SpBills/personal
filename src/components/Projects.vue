@@ -10,6 +10,7 @@
             :backgroundurl="project.background_url"
             :buttoncolor="project.button_color"
             :customlink="project.custom_link"
+            :galleryimgs="project.gallery"
         />
     </div>
 </template>
