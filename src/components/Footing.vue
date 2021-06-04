@@ -5,7 +5,6 @@
                 <h4>Contact</h4>
                 <span>
                     spencebills0@gmail.com <br />
-                    304-551-1045 <br />
                 </span>
                 <span>&copy; 2021 Spencer Bills</span>
             </div>

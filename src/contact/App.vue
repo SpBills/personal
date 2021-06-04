@@ -4,7 +4,6 @@
             <name text="Contact Me" />
             <ul>
                 <li>Email: <a href="mailto:spencebills0@gmail.com">spencebills0@gmail.com</a></li>
-                <li>Phone: <a href="tel:+13045511045">304-551-1045</a></li>
             </ul>
         </div>
         <footing />
