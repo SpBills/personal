@@ -4,11 +4,34 @@
             <showcase class="showcase" />
             <h1>Explanation</h1>
             <p>
-                LapTrack is a laptop inventory management program made for the
-                Wetzel County School District. This was commissioned from me in
-                the summer of 2020. It was deployed in the winter of 2020, and
-                is now in current use.
+                LapTrack is a laptop inventory management web application made for the a
+                local educational district. It is a database management software
+                that allows school administrators to issue laptops and keep
+                inventory of their assigned students easily. The program
+                features a streamlined input strategy, easy editing of records
+                on the fly, and user friendly student/laptop lookup. It is
+                currently in use.
             </p>
+            <div class="technologies">
+                <div>
+                    <h1>Languages</h1>
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>NodeJS</li>
+                        <li>SQL</li>
+                        <li>VueJS</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>Technologies</h1>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>MySQL</li>
+                        <li>TypeORM</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <footing />
     </main>
@@ -23,44 +46,4 @@ export default {
 </script>
 
 <style>
-main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-h1 {
-    width: 70%;
-}
-
-p {
-    line-height: 140%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: "Courier Prime", monospace;
-    letter-spacing: 1.5px;
-}
-
-* {
-    font-family: "Open Sans", sans-serif;
-}
-
-.showcase {
-    padding-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.container {
-    width: 70%;
-}
 </style>

@@ -1,7 +1,7 @@
 [
     {
         "title": "Schedulizer",
-        "text": "A master schedule generator for Magnolia High School.",
+        "text": "A master schedule generator for high schools.",
         "custom_link": "schedulizer",
         "ico_url": "schedlogo.png",
         "background_url": "schedule.png",
@@ -20,7 +20,7 @@
     },
     {
         "title": "LapTrack",
-        "text": "A Laptop Inventory Management Software for Wetzel County Schools.",
+        "text": "A Laptop Inventory Management Software for school districts.",
         "custom_link": "laptrack",
         "ico_url": "laptracklogo.png",
         "button_color": "#E5B800",

@@ -23,6 +23,12 @@ module.exports = {
         template: 'public/index.html',
         title: 'LapTrack',
         chunks: ['chunk-vendors', 'chunk-common', 'laptrack']
+      },
+      contact: {
+        entry: 'src/contact/main.js',
+        template: 'public/index.html',
+        title: 'Contact',
+        chunks: ['chunk-vendors', 'chunk-common', 'contact']
       }
     }
   }

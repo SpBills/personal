@@ -32,7 +32,8 @@ export default {};
     width: 100%;
     color: white;
     background-color: black;
-    padding: 1rem 0;
+    padding: 50px 0;
+    margin-top: 20px;
 }
 
 .footer span {
