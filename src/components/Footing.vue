@@ -55,6 +55,6 @@ export default {};
 
 .footer-grid {
     width: 50%;
-    min-width: 325px;
+    min-width: 260px;
 }
 </style>
