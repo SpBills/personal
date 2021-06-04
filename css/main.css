@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.technologies * {
+    width: 50%;
+    min-width: 260px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    line-height: 140%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Courier Prime", monospace;
+    letter-spacing: 1.5px;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.showcase {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 70%;
+}
