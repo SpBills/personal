@@ -12,10 +12,12 @@ main {
 
 .technologies * {
     width: 50%;
+    min-width: 325px;
 }
 
 .technologies {
     display: flex;
+    flex-wrap: wrap;
 }
 
 p {

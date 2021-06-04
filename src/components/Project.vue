@@ -65,7 +65,7 @@ export default {
     height: 250px;
     margin: 3vh 1vw;
     width: 33%;
-    min-width: 200px;
+    min-width: 325px;
 
     border-radius: 15px;
     box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.6);

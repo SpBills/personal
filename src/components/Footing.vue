@@ -33,6 +33,9 @@ export default {};
     background-color: black;
     padding: 50px 0;
     margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
 }
 
 .footer span {
@@ -41,15 +44,17 @@ export default {};
 
 .footer a {
     color: white;
+    width: 100%;
 }
 
 .footer-container {
     width: 70%;
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .footer-grid {
     width: 50%;
+    min-width: 325px;
 }
 </style>
