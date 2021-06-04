@@ -1,19 +1,3 @@
-# personal
+# Personal Website for Spencer Bills
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Made in Vue.JS using multipage mode.
