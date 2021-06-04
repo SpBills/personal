@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: '/personal/',
     pages: {
       index: {
         // entry for the page
